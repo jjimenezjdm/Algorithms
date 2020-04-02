@@ -2,7 +2,7 @@ package com.algorithms.arraydatastructure;
 
 import java.util.Scanner;
 
-public class ArrayDataExercises {
+public class RotateArray {
 
     /**
      * Given an unsorted array arr[] of size N, rotate it by D elements (clockwise).
