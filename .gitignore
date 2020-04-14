@@ -22,3 +22,4 @@ yarn-error.log*
 
 !/src/com/algorithms/arrays/SumOfAllPairs.java
 !/src/com/algorithms/arrays/TrappingRainWater.java
+/out/
