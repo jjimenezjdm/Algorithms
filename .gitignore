@@ -19,3 +19,6 @@ yarn-error.log*
 
 /.idea
 *.iml
+
+!/src/com/algorithms/arrays/SumOfAllPairs.java
+!/src/com/algorithms/arrays/TrappingRainWater.java
