@@ -5,6 +5,9 @@ import java.util.Scanner;
 public class ReverseString {
     /**
      * Implement a method String reverse(String str) to reverse a String passed as parameter.
+     *
+     * @author Pedro Vicente Gómez Sánchez.
+     * https://github.com/pedrovgs/Algorithms
      */
 
     public static void main(String[] args) {

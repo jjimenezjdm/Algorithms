@@ -8,6 +8,9 @@ public class UniqueChars {
     /**
      * Implement an algorithm to determine if a string has all unique characters. What if you cannot
      * use additional data structures?
+     *
+     * @author Pedro Vicente Gómez Sánchez.
+     * https://github.com/pedrovgs/Algorithms
      */
 
     public static void main(String[] args) {

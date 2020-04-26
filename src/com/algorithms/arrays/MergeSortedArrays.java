@@ -10,6 +10,7 @@ public class MergeSortedArrays {
      * the sorting.
      *
      * @author Pedro Vicente Gómez Sánchez.
+     * https://github.com/pedrovgs/Algorithms
      */
 
     public static void main(String[] args) {

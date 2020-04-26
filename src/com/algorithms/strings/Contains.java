@@ -7,6 +7,9 @@ public class Contains {
     /**
      * Given two strings passed as argument, can you write a method to return true if the second
      * contains the first one?
+     *
+     * @author Pedro Vicente Gómez Sánchez.
+     * https://github.com/pedrovgs/Algorithms
      */
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

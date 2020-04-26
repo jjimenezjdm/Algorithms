@@ -8,6 +8,9 @@ public class CountLettersOfString {
      * Implement a method to perform basic string compression using the counts of repeated characters.
      * For example, the string aabcccccaaa would become a5b1c5. If the "compressed" string would not
      * become smaller than the original string, your method should return the original string.
+     *
+     * @author Pedro Vicente Gómez Sánchez.
+     * https://github.com/pedrovgs/Algorithms
      */
 
     public static void main(String[] args) {

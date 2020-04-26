@@ -7,6 +7,9 @@ public class RemoveComments {
     /**
      * Given a file we are going to read it line by line, can you write a method to remove block
      * comments marked with '/*' and '*\'. Simulate the input file if needed.
+     *
+     * @author Pedro Vicente Gómez Sánchez.
+     * https://github.com/pedrovgs/Algorithms
      */
 
     public static void main(String[] args) {

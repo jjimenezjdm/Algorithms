@@ -14,6 +14,7 @@ public class ReverseSentence {
      * Input: "Pedro Vicente Gómez" Output: "Gómez Vicente Pedro"
      *
      * @author Pedro Vicente Gómez Sánchez.
+     * https://github.com/pedrovgs/Algorithms
      */
 
     public static void main(String[] args) {
