@@ -10,6 +10,26 @@ Some problems that arise in this repository have been taken as an example of the
 These are marked on the statement with his name, and It has a link where you can find the problem resolved by him.
 
 
+###Algorithms
+
+#### Arrays
+* KthSmallestElement
+* MergeSortedArrays
+* MoveZeroArray
+* RemoveDuplicates
+* RotateArray
+* SplitArrayPosNeg
+
+#### Strings
+* CompressString
+* Contains
+* CountLettersOfString
+* IsRotationUsingIsSubString
+* RemoveComments
+* ReverseSentence
+* ReverseString
+* UniqueChars
+
 ## License
 
 Copyright [Judit Jiménez Jiménez] 
