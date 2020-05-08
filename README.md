@@ -10,7 +10,7 @@ Some problems that arise in this repository have been taken as an example of the
 These are marked on the statement with his name, and It has a link where you can find the problem resolved by him.
 
 
-###Algorithms
+### Algorithms
 
 #### Arrays
 * KthSmallestElement
@@ -29,6 +29,9 @@ These are marked on the statement with his name, and It has a link where you can
 * ReverseSentence
 * ReverseString
 * UniqueChars
+
+#### Sorting
+* BubbleSort
 
 ## License
 
