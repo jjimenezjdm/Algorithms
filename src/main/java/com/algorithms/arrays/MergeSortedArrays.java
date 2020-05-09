@@ -13,15 +13,14 @@ public class MergeSortedArrays {
      * https://github.com/pedrovgs/Algorithms
      */
 
-    public static void main(String[] args) {
-
-        Integer[] firstArray = new Integer[]{1, 3, 4, 4, 6, 7};
-        Integer[] secondArray = new Integer[]{1, 2, 4, 5, 8, 10, 21};
+    public Integer[] mergeSortedArrays(Integer[] firstArray, Integer[] secondArray) {
 
         ArrayList<Integer> result = new ArrayList<>();
         result.addAll(Arrays.asList(firstArray));
         result.addAll(Arrays.asList(secondArray));
         Collections.sort(result);
         System.out.println(result.toString());
+
+        return result.toArray(new Integer[0]);
     }
 }
