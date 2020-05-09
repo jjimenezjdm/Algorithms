@@ -33,10 +33,12 @@ public class RotateArray {
      * <p>
      * Explanation :
      * Testcase 1: 1 2 3 4 5  when rotated by 2 elements, it becomes 3 4 5 1 2.
+     *
+     * @developer Judit Jiménez Jiménez
      */
 
 
-    public static void main(String[] args) {
+    public String rotateArray(String[] sorted) {
         Scanner sc = new Scanner(System.in);
         final int numberTestCases = Integer.parseInt(sc.nextLine());
         StringBuilder result = new StringBuilder();
@@ -56,8 +58,9 @@ public class RotateArray {
             result.append("\n");
         }
 
-        System.out.print(result);
         sc.close();
+
+        return result.toString();
     }
 
 }

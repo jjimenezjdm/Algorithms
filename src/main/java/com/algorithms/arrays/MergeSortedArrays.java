@@ -11,6 +11,7 @@ public class MergeSortedArrays {
      *
      * @author Pedro Vicente Gómez Sánchez.
      * https://github.com/pedrovgs/Algorithms
+     * @developer Judit Jiménez Jiménez
      */
 
     public Integer[] mergeSortedArrays(Integer[] firstArray, Integer[] secondArray) {

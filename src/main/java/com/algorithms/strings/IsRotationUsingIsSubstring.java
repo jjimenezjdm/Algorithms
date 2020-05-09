@@ -2,7 +2,6 @@ package com.algorithms.strings;
 
 
 import java.util.Arrays;
-import java.util.Scanner;
 
 public class IsRotationUsingIsSubstring {
 
@@ -13,12 +12,11 @@ public class IsRotationUsingIsSubstring {
      *
      * @author Pedro Vicente Gómez Sánchez.
      * https://github.com/pedrovgs/Algorithms
+     * @developer Judit Jiménez Jiménez
      */
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        final String[] input = sc.nextLine().split(" ");
-        char[] firstString = input[0].toCharArray();
-        char[] secondString = input[1].toCharArray();
+    public boolean isRottation(String firstWord, String secondWord) {
+        char[] firstString = firstWord.toCharArray();
+        char[] secondString = secondWord.toCharArray();
 
         Arrays.sort(firstString);
         Arrays.sort(secondString);
@@ -26,7 +24,7 @@ public class IsRotationUsingIsSubstring {
         String word1 = new String(firstString);
         String word2 = new String(secondString);
 
-        System.out.println(word1.contains(word2));
+        return word1.contains(word2);
 
     }
 

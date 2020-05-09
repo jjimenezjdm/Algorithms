@@ -9,6 +9,7 @@ public class Quicksort {
      * the array.
      *
      * @author jsroyal
+     * @developer Judit Jiménez Jiménez
      */
     public static void main(String[] args) {
 

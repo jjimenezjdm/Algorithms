@@ -1,8 +1,6 @@
 package com.algorithms.strings;
 
 
-import java.util.Scanner;
-
 public class ReverseSentence {
 
     /**
@@ -15,14 +13,15 @@ public class ReverseSentence {
      *
      * @author Pedro Vicente Gómez Sánchez.
      * https://github.com/pedrovgs/Algorithms
+     * @developer Judit Jiménez Jiménez
      */
 
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        final String[] line = sc.nextLine().split(" ");
-
-        for (int i = line.length - 1; i >= 0; i--) {
-            System.out.print(line[i] + " ");
+    public String reverseSentence(String line) {
+        final String[] lineArray = line.split(" ");
+        StringBuilder sb = new StringBuilder();
+        for (int i = lineArray.length - 1; i >= 0; i--) {
+            sb.append(lineArray[i]).append(" ");
         }
+        return sb.toString();
     }
 }

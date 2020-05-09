@@ -1,7 +1,5 @@
 package com.algorithms.strings;
 
-import java.util.Scanner;
-
 public class CompressString {
 
     /**
@@ -11,11 +9,10 @@ public class CompressString {
      *
      * @author Pedro Vicente Gómez Sánchez.
      * https://github.com/pedrovgs/Algorithms
+     * @developer Judit Jiménez Jiménez
      */
 
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        final String word = sc.nextLine();
+    public String compressString(final String word) {
         final char[] line = word.toCharArray();
         String result = "";
         char character = line[0];
@@ -40,7 +37,7 @@ public class CompressString {
             }
         }
 
-        System.out.println(result);
+        return result;
     }
 
 }

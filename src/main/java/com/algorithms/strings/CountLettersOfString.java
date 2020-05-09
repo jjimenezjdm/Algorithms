@@ -1,7 +1,6 @@
 package com.algorithms.strings;
 
 import java.util.HashMap;
-import java.util.Scanner;
 
 public class CountLettersOfString {
     /**
@@ -11,11 +10,10 @@ public class CountLettersOfString {
      *
      * @author Pedro Vicente Gómez Sánchez.
      * https://github.com/pedrovgs/Algorithms
+     * @developer Judit Jiménez Jiménez
      */
 
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        final String word = sc.nextLine();
+    public String countLetters(final String word) {
         HashMap<Character, Integer> words = new HashMap<>();
         for (char character : word.toCharArray()) {
             if (words.containsKey(character)) {
@@ -34,7 +32,6 @@ public class CountLettersOfString {
             result = word;
         }
 
-        System.out.println(result);
-
+        return result;
     }
 }

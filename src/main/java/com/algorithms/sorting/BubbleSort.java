@@ -9,6 +9,7 @@ public class BubbleSort {
      * array.
      *
      * @author Pedro Vicente Gómez Sánchez.
+     * @developer Judit Jiménez Jiménez
      */
 
     public static void main(String[] args) {

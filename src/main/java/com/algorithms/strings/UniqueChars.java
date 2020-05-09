@@ -1,7 +1,6 @@
 package com.algorithms.strings;
 
 import java.util.HashSet;
-import java.util.Scanner;
 
 public class UniqueChars {
 
@@ -11,11 +10,10 @@ public class UniqueChars {
      *
      * @author Pedro Vicente Gómez Sánchez.
      * https://github.com/pedrovgs/Algorithms
+     * @developer Judit Jiménez Jiménez
      */
 
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        final String line = sc.nextLine();
+    public boolean uniqueChars(final String line) {
         HashSet<Character> wordsInLine = new HashSet<>();
         boolean unique = true;
         for (int i = 0; i < line.length() && unique; i++) {
@@ -24,6 +22,6 @@ public class UniqueChars {
             else
                 wordsInLine.add(line.charAt(i));
         }
-        System.out.println(unique);
+        return unique;
     }
 }

@@ -10,6 +10,7 @@ public class RemoveComments {
      *
      * @author Pedro Vicente Gómez Sánchez.
      * https://github.com/pedrovgs/Algorithms
+     * @developer Judit Jiménez Jiménez
      */
 
     public static void main(String[] args) {

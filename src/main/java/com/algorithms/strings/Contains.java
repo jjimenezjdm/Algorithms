@@ -1,8 +1,5 @@
 package com.algorithms.strings;
 
-
-import java.util.Scanner;
-
 public class Contains {
     /**
      * Given two strings passed as argument, can you write a method to return true if the second
@@ -10,11 +7,10 @@ public class Contains {
      *
      * @author Pedro Vicente Gómez Sánchez.
      * https://github.com/pedrovgs/Algorithms
+     * @developer Judit Jiménez Jiménez
      */
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        final String[] line = sc.nextLine().split(" ");
-        System.out.println(containsRude(line[0], line[1]));
+    public boolean containString(String contain, String contained) {
+        return containsRude(contain, contained);
     }
 
     private static boolean contains(String oneWord, String twoWord) {

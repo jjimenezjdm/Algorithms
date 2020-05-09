@@ -13,15 +13,15 @@ import java.util.Collections;
  * Input: [1,2,3,-1,-2,-3] Output: [-2,-1,-3,2,3,1]
  *
  * @author Pedro Vicente Gómez Sánchez.
+ * @developer Judit Jiménez Jiménez
  */
 public class SplitArrayPosNeg {
 
-    public static void main(String[] args) {
-        Integer[] firstArray = new Integer[]{1, -3, -4, 4, 6, -7};
-
-        //First way
-        ArrayList<Integer> result = new ArrayList<>(Arrays.asList(firstArray));
+    public Integer[] splitArrayPosNeg(Integer[] array) {
+        ArrayList<Integer> result = new ArrayList<>(Arrays.asList(array));
         Collections.sort(result);
+
+        return result.toArray(new Integer[0]);
     }
 
 }

@@ -9,6 +9,7 @@ public class MoveZerosInArray {
      * Input: [1,2,0,4,3] Output: [1,2,3,4,0]
      *
      * @author Pedro Vicente Gómez Sánchez.
+     * @developer Judit Jiménez Jiménez
      */
 
 

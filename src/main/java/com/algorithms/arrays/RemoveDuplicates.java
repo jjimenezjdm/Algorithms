@@ -11,27 +11,20 @@ import java.util.HashSet;
  * Input: [1,1,1,1,1] Output: [1]
  *
  * @author Pedro Vicente Gómez Sánchez.
+ * @developer Judit Jiménez Jiménez
  */
 public class RemoveDuplicates {
 
-    public static void main(String[] args) {
+    public Integer[] removeDuplicates(Integer[] array) {
 
-        Integer[] firstArray = new Integer[]{1, 3, 4, 1, 3};
-        Integer[] secondArray = new Integer[]{1, 2, 4, 5};
+        HashSet<Integer> deleted = deleteDuplicated(array);
+        array = deleted.toArray(new Integer[0]);
 
-        HashSet<Integer> deleted = deleteDuplicated(firstArray);
-        firstArray = deleted.toArray(new Integer[0]);
-
-        for (Integer elemento : firstArray) {
+        for (Integer elemento : array) {
             System.out.println(elemento);
         }
 
-        HashSet<Integer> deleted2 = deleteDuplicated(secondArray);
-        secondArray = deleted2.toArray(new Integer[0]);
-
-        for (Integer elemento : secondArray) {
-            System.out.println(elemento);
-        }
+        return array;
     }
 
     private static HashSet<Integer> deleteDuplicated(Integer[] firstArray) {
