@@ -32,6 +32,7 @@ These are marked on the statement with his name, and It has a link where you can
 
 #### Sorting
 * BubbleSort
+* Quicksort
 
 ## License
 
