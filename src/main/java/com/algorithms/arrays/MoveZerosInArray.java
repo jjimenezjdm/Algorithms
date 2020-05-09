@@ -1,7 +1,5 @@
 package com.algorithms.arrays;
 
-import java.util.Arrays;
-
 public class MoveZerosInArray {
     /**
      * Given an array full of integers, can you write a method to move every zero to the right side of
@@ -13,24 +11,21 @@ public class MoveZerosInArray {
      * @author Pedro Vicente Gómez Sánchez.
      */
 
-    public static void main(String[] args) {
 
-        //Integer[] firstArray = new Integer[]{1, 2, 0, 4, 5, 6};
-        Integer[] secondArray = new Integer[]{0, 0, 0, 4, 0, 6};
+    public int[] moveZerosInArray(int[] array) {
         boolean mover = true;
         while (mover) {
             mover = false;
-            for (int i = 0; i < secondArray.length - 1; i++) {
-                if (secondArray[i] == 0 && secondArray[i + 1] != 0) {
-                    int element = secondArray[i];
-                    secondArray[i] = secondArray[i + 1];
-                    secondArray[i + 1] = element;
+            for (int i = 0; i < array.length - 1; i++) {
+                if (array[i] == 0 && array[i + 1] != 0) {
+                    int element = array[i];
+                    array[i] = array[i + 1];
+                    array[i + 1] = element;
                     mover = true;
                 }
             }
         }
-
-        System.out.println(Arrays.toString(secondArray));
+        return array;
     }
 
 }
