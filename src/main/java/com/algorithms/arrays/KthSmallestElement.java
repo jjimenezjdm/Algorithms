@@ -1,7 +1,7 @@
 package com.algorithms.arrays;
 
 import java.util.Arrays;
-import java.util.Scanner;
+import java.util.List;
 
 public class KthSmallestElement {
 
@@ -15,23 +15,21 @@ public class KthSmallestElement {
      * First line of each testcase contains an integer N denoting size of the array.
      * Second line contains N space separated integer denoting elements of the array.
      * Third line of the test case contains an integer K.
+     *
+     * @developer Judit Jiménez Jiménez
      */
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        final int numberTestCases = Integer.parseInt(sc.nextLine());
+    public int[] kthSmallestElement(int numberTestCases, List<String[]> lineArrayList, int knumber) {
+
+        int[] result = new int[numberTestCases];
 
         for (int i = 0; i < numberTestCases; i++) {
-            String length = sc.nextLine();
-            String[] lineArray = sc.nextLine().split(" ");
+            String[] lineArray = lineArrayList.get(i);
             int[] numbers = convertStringArrayToIntArray(lineArray);
-            int k = Integer.parseInt(sc.nextLine());
 
             Arrays.sort(numbers);
-            System.out.println(numbers[k - 1]);
-
+            result[i] = numbers[knumber - 1];
         }
-
-        sc.close();
+        return result;
     }
 
     private static int[] convertStringArrayToIntArray(String[] array) {
